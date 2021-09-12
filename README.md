@@ -6,3 +6,5 @@ A garage door manufacturer has built a controller for standard doors that raise 
   
 ### Observer Pattern:
 Notify a set of customers registered for notifications from a particular store.
+
+Lab Designed by Dr. Ramiro Liscano.
