@@ -16,12 +16,12 @@ public class ObserverTest {
         store3.register(customer3);
 
         store1.unregister(customer1);
-        store2.unregister(customer2);
-        store3.unregister(customer3);
+        store2.unregister(customer3);
+        store3.unregister(customer2);
 
-        store1.setDiscount("New Years", 90);
-        store2.setDiscount("New Years", 25);
-        store3.setDiscount("New Years", 1);
+        store1.setDiscount("New Years", 10);
+        store2.setDiscount("Christmas", 20);
+        store3.setDiscount("Summer", 50);
 
     }
 

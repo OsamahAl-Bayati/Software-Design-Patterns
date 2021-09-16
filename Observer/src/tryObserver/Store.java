@@ -27,7 +27,7 @@ public class Store extends Subject {
 			ol.remove(ol.indexOf(o));	
 			System.out.println("Removed Customer "+o+" from store "+name);
 		}
-		catch (NullPointerException e) {
+		catch (Exception e) {
 			// TODO: handle exception
 			System.out.println("No such Customer called "+o+" in store "+name);
 		}
