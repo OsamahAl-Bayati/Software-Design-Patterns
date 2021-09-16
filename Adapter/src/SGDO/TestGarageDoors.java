@@ -10,8 +10,8 @@ public class TestGarageDoors {
 
     testPremium.openDoor(10);
     testPremium.closeDoor(9);
-    testBasic.closeDoor(1);
     testBasic.openDoor(1);
+    testBasic.closeDoor(1);
 
 
     }
